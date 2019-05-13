@@ -1894,9 +1894,9 @@ Resources:
         IdleTimeout: 300
       CrossZone: true
       Subnets:
-        - !Ref 'PublicSubnet1ID'
-        - !Ref 'PublicSubnet2ID'
-        - !Ref 'PublicSubnet3ID'
+        - !Ref 'PrivateSubnet1ID'
+        - !Ref 'PrivateSubnet2ID'
+        - !Ref 'PrivateSubnet3ID'
       SecurityGroups:
         - !Ref 'OpenShiftSecurityGroup'
       Listeners:
@@ -1933,9 +1933,9 @@ Resources:
         IdleTimeout: 300
       CrossZone: true
       Subnets:
-        - !Ref 'PublicSubnet1ID'
-        - !Ref 'PublicSubnet2ID'
-        - !Ref 'PublicSubnet3ID'
+        - !Ref 'PrivateSubnet1ID'
+        - !Ref 'PrivateSubnet2ID'
+        - !Ref 'PrivateSubnet3ID'
       SecurityGroups:
         - !Ref 'OpenShiftNodeSecurityGroup'
       Listeners:
